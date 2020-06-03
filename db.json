@@ -25,24 +25,9 @@
         {"name":"Gerente", "description": "Quantidade de acessos por Gerente", "quantity": "1", "value":"20.00" }
     ],
     "user": [
-        {
-    "name": "Jefferson Follmann",
-    "userName": "jefferson.follmann",
-    "password": "totvs@123",
-  },
-  {
-    "name": "Vitor Kern",
-    "userName": "vitor.kern",
-    "password": "totvs@123",
-  },
-  {
-    "name": "Gustavo Emmel",
-    "userName": "gustavo.emmel",
-    "password": "totvs@123",
-  },
-  {
-    "name": "Front End",
-    "userName": "front.end",
-    "password": "totvs@123",
-  }]
+        { "name": "Jefferson Follmann", "userName": "jefferson.follmann","password": "totvs@123"},
+        { "name": "Vitor Kern", "userName": "vitor.kern", "password": "totvs@123"},
+        {"name": "Gustavo Emmel", "userName": "gustavo.emmel", "password": "totvs@123"},
+        { "name": "Front End", "userName": "front.end", "password": "totvs@123"}
+    ]
 }
