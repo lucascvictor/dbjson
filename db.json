@@ -21,8 +21,8 @@
         { "id": 3, "name": "Protheus [Agro]", "code": "T65885", "description": "Conecta toda a cadeia agrícola com automatizações de operações de ponta, agéis e integradas" }
     ],
     "restriction": [
-        {"name":"Medico", "description": "Quantidade de acessos por Medico", "quantity": "1", "value":"10.00" },
-        {"name":"Gerente", "description": "Quantidade de acessos por Gerente", "quantity": "1", "value":"20.00" }
+        { "id": 22, "name":"Medico", "description": "Quantidade de acessos por Medico", "quantity": "1", "value":"10.00" },
+        { "id": 33, "name":"Gerente", "description": "Quantidade de acessos por Gerente", "quantity": "1", "value":"20.00" }
     ],
     "user": [
         { id: 1, "name": "Jefferson Follmann", "userName": "jefferson.follmann","password": "totvs@123"},
