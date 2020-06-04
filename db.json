@@ -11,23 +11,61 @@
             "name": "Eleve [Financeiro]",
             "code": "T12585",
             "description": "Produto para gestão financeira",
-            "offers": [
-                { "id": 1, "name": "basic", "code": "12585", "description": "Produto para gestão financeira", "value": 200.99, "productId": 1 },
-                { "id": 2, "name": "premium", "code": "12586", "description": "Produto para gestão de clinicas e consultórios médicos", "value": 200.99, "productId": 1 },
-                { "id": 3, "name": "ultra", "code": "65885", "description": "Conecta toda a cadeia ", "value": 200.99, "productId": 1 }
+            "offers": [{
+                    "id": 1,
+                    "name": "basic",
+                    "code": "12585",
+                    "description": "Produto para gestão financeira",
+                    "value": 200.99,
+                    "productId": 1,
+                    "frequencies": [{
+                        "code": "0001",
+                        "name": "Premium Mensal",
+                        "frequency": 1,
+                        "value": 200
+                    }]
+                },
+                {
+                    "id": 2,
+                    "name": "premium",
+                    "code": "12586",
+                    "description": "Produto para gestão de clinicas e consultórios médicos",
+                    "value": 200.99,
+                    "productId": 1,
+                    "frequencies": [{
+                        "code": "0001",
+                        "name": "Premium Mensal",
+                        "frequency": 1,
+                        "value": 200
+                    }]
+                },
+                {
+                    "id": 3,
+                    "name": "ultra",
+                    "code": "65885",
+                    "description": "Conecta toda a cadeia ",
+                    "value": 200.99,
+                    "productId": 1,
+                    "frequencies": [{
+                        "code": "0001",
+                        "name": "Premium Mensal",
+                        "frequency": 1,
+                        "value": 200
+                    }]
+                }
             ]
         },
         { "id": 2, "name": "Eleve [Saude]", "code": "T12586", "description": "Produto para gestão de clinicas e consultórios médicos" },
         { "id": 3, "name": "Protheus [Agro]", "code": "T65885", "description": "Conecta toda a cadeia agrícola com automatizações de operações de ponta, agéis e integradas" }
     ],
     "restriction": [
-        {"name":"Medico", "description": "Quantidade de acessos por Medico", "quantity": "1", "value":"10.00" },
-        {"name":"Gerente", "description": "Quantidade de acessos por Gerente", "quantity": "1", "value":"20.00" }
+        { "name": "Medico", "description": "Quantidade de acessos por Medico", "quantity": "1", "value": "10.00" },
+        { "name": "Gerente", "description": "Quantidade de acessos por Gerente", "quantity": "1", "value": "20.00" }
     ],
     "user": [
-        { "name": "Jefferson Follmann", "userName": "jefferson.follmann","password": "totvs@123"},
-        { "name": "Vitor Kern", "userName": "vitor.kern", "password": "totvs@123"},
-        {"name": "Gustavo Emmel", "userName": "gustavo.emmel", "password": "totvs@123"},
-        { "name": "Front End", "userName": "front.end", "password": "totvs@123"}
+        { "name": "Jefferson Follmann", "userName": "jefferson.follmann", "password": "totvs@123" },
+        { "name": "Vitor Kern", "userName": "vitor.kern", "password": "totvs@123" },
+        { "name": "Gustavo Emmel", "userName": "gustavo.emmel", "password": "totvs@123" },
+        { "name": "Front End", "userName": "front.end", "password": "totvs@123" }
     ]
 }
