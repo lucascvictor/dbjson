@@ -1,10 +1,10 @@
 {
     "client": [
-        { "id": 1, "name": "Mateo Barrios", "company_name": "Mation Totvs", "document": 12345615485, "email": "mateo@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_address_number": 1000, "person_type": 1 },
-        { "id": 2, "name": "Lucas Victor", "company_name": "Lucion Totvs", "document": 41522254857, "email": "lucas@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "person_type": 1 },
-        { "id": 3, "name": "Vitor Kern", "company_name": "Vition Totvs", "document": 12345615485, "email": "Vitor@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "person_type": 2 },
-        { "id": 4, "name": "Jefferson Follman", "company_name": "Jeffersion Totvs", "document": 12345615485, "email": "jefferson@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "person_type": 1 },
-        { "id": 5, "name": "Gustavo Emmel", "company_name": "Gustavion Totvs", "document": 12345615485, "email": "gustavo@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "person_type": 1 }
+        { "id": 1, "name": "Mateo Barrios", "fantasyName": "Mation Totvs", "document": 12345615485, "email": "mateo@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_address_number": 1000, "person_type": 1 },
+        { "id": 2, "name": "Lucas Victor", "fantasyName": "Lucion Totvs", "document": 41522254857, "email": "lucas@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "person_type": 1 },
+        { "id": 3, "name": "Vitor Kern", "fantasyName": "Vition Totvs", "document": 12345615485, "email": "Vitor@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "person_type": 2 },
+        { "id": 4, "name": "Jefferson Follman", "fantasyName": "Jeffersion Totvs", "document": 12345615485, "email": "jefferson@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "person_type": 1 },
+        { "id": 5, "name": "Gustavo Emmel", "fantasyName": "Gustavion Totvs", "document": 12345615485, "email": "gustavo@totvs.com.br", "ddd_code": 11, "phone": 9536855452, "zip_code": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "person_type": 1 }
     ],
     "product": [{
             "id": 1,
@@ -59,13 +59,19 @@
         { "id": 3, "name": "Protheus [Agro]", "code": "T65885", "description": "Conecta toda a cadeia agrícola com automatizações de operações de ponta, agéis e integradas" }
     ],
     "restriction": [
-        { "name": "Medico", "description": "Quantidade de acessos por Medico", "quantity": "1", "value": "10.00" },
-        { "name": "Gerente", "description": "Quantidade de acessos por Gerente", "quantity": "1", "value": "20.00" }
+        { "id": 22, "name": "Medico", "description": "Quantidade de acessos por Medico", "quantity": "1", "value": "10.00" },
+        { "id": 33, "name": "Gerente", "description": "Quantidade de acessos por Gerente", "quantity": "1", "value": "20.00" }
     ],
     "user": [
-        { "name": "Jefferson Follmann", "userName": "jefferson.follmann", "password": "totvs@123" },
-        { "name": "Vitor Kern", "userName": "vitor.kern", "password": "totvs@123" },
-        { "name": "Gustavo Emmel", "userName": "gustavo.emmel", "password": "totvs@123" },
-        { "name": "Front End", "userName": "front.end", "password": "totvs@123" }
+        { "id": 1, "name": "Jefferson Follmann", "userName": "jefferson.follmann", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
+        { "id": 2, "name": "Vitor Kern", "userName": "vitor.kern", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
+        { "id": 3, "name": "Gustavo Emmel", "userName": "gustavo.emmel", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
+        { "id": 4, "name": "Front End", "userName": "front.end", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" }
+    ],
+    "token": [
+        { "id": 1, "name": "Jefferson Follmann", "userName": "jefferson.follmann", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
+        { "id": 2, "name": "Vitor Kern", "userName": "vitor.kern", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
+        { "id": 3, "name": "Gustavo Emmel", "userName": "gustavo.emmel", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
+        { "id": 4, "name": "Front End", "userName": "front.end", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" }
     ]
 }
