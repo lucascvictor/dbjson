@@ -80,7 +80,6 @@
             "code": "12585",
             "description": "Produto para gestão financeira",
             "value": 200.99,
-            "productId": 1,
             "frequencies": [{
                 "code": "0001",
                 "name": "Premium Mensal",
@@ -94,7 +93,6 @@
             "code": "12586",
             "description": "Produto para gestão de clinicas e consultórios médicos",
             "value": 200.99,
-            "productId": 1,
             "frequencies": [{
                 "code": "0001",
                 "name": "Premium Mensal",
@@ -108,7 +106,6 @@
             "code": "65885",
             "description": "Conecta toda a cadeia ",
             "value": 200.99,
-            "productId": 1,
             "frequencies": [{
                 "code": "0001",
                 "name": "Premium Mensal",
