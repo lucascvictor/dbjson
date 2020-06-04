@@ -74,7 +74,7 @@
         { "id": 3, "name": "Gustavo Emmel", "userName": "gustavo.emmel", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
         { "id": 4, "name": "Front End", "userName": "front.end", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" }
     ],
-    "offers": [{
+    "offer": [{
             "id": 1,
             "name": "basic",
             "code": "12585",
