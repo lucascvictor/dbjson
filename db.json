@@ -73,5 +73,48 @@
         { "id": 2, "name": "Vitor Kern", "userName": "vitor.kern", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
         { "id": 3, "name": "Gustavo Emmel", "userName": "gustavo.emmel", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" },
         { "id": 4, "name": "Front End", "userName": "front.end", "password": "totvs@123", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWUiOiJGcm9udCBFbmQiLCJ1c2VyTmFtZSI6ImZyb250LmVuZCJ9LCJleHAiOjE1OTEyMjc4NTIsImlhdCI6MTU5MTIyNDI1Mn0.tFVXNfsWdWMrMKKB6ypdwOnyO_roTOLzQVOf2CTv5S8" }
+    ],
+    "offers": [{
+            "id": 1,
+            "name": "basic",
+            "code": "12585",
+            "description": "Produto para gestão financeira",
+            "value": 200.99,
+            "productId": 1,
+            "frequencies": [{
+                "code": "0001",
+                "name": "Premium Mensal",
+                "frequency": 1,
+                "value": 200
+            }]
+        },
+        {
+            "id": 2,
+            "name": "premium",
+            "code": "12586",
+            "description": "Produto para gestão de clinicas e consultórios médicos",
+            "value": 200.99,
+            "productId": 1,
+            "frequencies": [{
+                "code": "0001",
+                "name": "Premium Mensal",
+                "frequency": 1,
+                "value": 200
+            }]
+        },
+        {
+            "id": 3,
+            "name": "ultra",
+            "code": "65885",
+            "description": "Conecta toda a cadeia ",
+            "value": 200.99,
+            "productId": 1,
+            "frequencies": [{
+                "code": "0001",
+                "name": "Premium Mensal",
+                "frequency": 1,
+                "value": 200
+            }]
+        }
     ]
 }
