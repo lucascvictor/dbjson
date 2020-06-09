@@ -29,6 +29,6 @@
         ]
     }],
     "cancellation-reason": [
-        { "id": "889605b0-a981-11ea-9135-3dd2ddf78ac9", "reason": "Fechei o meu negócio", "subMotive": [{ "id": 1, "motive": "Passei o ponto" }, { "id": 2, "motive": "Crise COVID" }] }
+        { "id": "889605b0-a981-11ea-9135-3dd2ddf78ac9", "reason": "Fechei o meu negócio", "submotives": [{ "id": 1, "motive": "Passei o ponto" }, { "id": 2, "motive": "Crise COVID" }] }
     ]
 }
