@@ -1,107 +1,33 @@
 {
-    "client": [
-        { "id": 1, "name": "Mateo Barrios", "fantasyName": "Mation Totvs", "document": 12345615485, "email": "mateo@totvs.com.br", "DDD": 11, "phone": 9536855452, "postalCode": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_address_number": 1000, "personType": 1 },
-        { "id": 2, "name": "Lucas Victor", "fantasyName": "Lucion Totvs", "document": 41522254857, "email": "lucas@totvs.com.br", "DDD": 11, "phone": 9536855452, "postalCode": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "personType": 1 },
-        { "id": 3, "name": "Vitor Kern", "fantasyName": "Vition Totvs", "document": 12345615485, "email": "Vitor@totvs.com.br", "DDD": 11, "phone": 9536855452, "postalCode": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "personType": 2 },
-        { "id": 4, "name": "Jefferson Follman", "fantasyName": "Jeffersion Totvs", "document": 12345615485, "email": "jefferson@totvs.com.br", "DDD": 11, "phone": 9536855452, "postalCode": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "personType": 1 },
-        { "id": 5, "name": "Gustavo Emmel", "fantasyName": "Gustavion Totvs", "document": 12345615485, "email": "gustavo@totvs.com.br", "DDD": 11, "phone": 9536855452, "postalCode": "02511000", "state": "SP", "city": "São Paulo", "address": "Av. Braz Leme", "address_number": 1000, "personType": 1 }
-    ],
-    "product": [{
-            "id": 1,
-            "name": "Eleve [Financeiro]",
-            "code": "T12585",
-            "description": "Produto para gestão financeira",
-            "offers": [{
-                    "id": 1,
-                    "name": "basic",
-                    "code": "12585",
-                    "description": "Produto para gestão financeira",
-                    "value": 200.99,
-                    "productId": 1,
-                    "frequencies": [{
-                        "code": "0001",
-                        "name": "Premium Mensal",
-                        "frequency": 1,
-                        "value": 200
-                    }]
-                },
-                {
-                    "id": 2,
-                    "name": "premium",
-                    "code": "12586",
-                    "description": "Produto para gestão de clinicas e consultórios médicos",
-                    "value": 200.99,
-                    "productId": 1,
-                    "frequencies": [{
-                        "code": "0001",
-                        "name": "Premium Mensal",
-                        "frequency": 1,
-                        "value": 200
-                    }]
-                },
-                {
-                    "id": 3,
-                    "name": "ultra",
-                    "code": "65885",
-                    "description": "Conecta toda a cadeia ",
-                    "value": 200.99,
-                    "productId": 1,
-                    "frequencies": [{
-                        "code": "0001",
-                        "name": "Premium Mensal",
-                        "frequency": 1,
-                        "value": 200
-                    }]
-                }
-            ]
-        },
-        { "id": 2, "name": "Eleve [Saude]", "code": "T12586", "description": "Produto para gestão de clinicas e consultórios médicos" },
-        { "id": 3, "name": "Protheus [Agro]", "code": "T65885", "description": "Conecta toda a cadeia agrícola com automatizações de operações de ponta, agéis e integradas" }
-    ],
-    "restriction": [
-        { "id": 22, "name": "Medico", "description": "Quantidade de acessos por Medico", "quantity": "1", "value": "10.00" },
-        { "id": 33, "name": "Gerente", "description": "Quantidade de acessos por Gerente", "quantity": "1", "value": "20.00" }
-    ],
-
-
-    "offer": [{
-            "id": 1,
-            "name": "basic",
-            "code": "12585",
-            "description": "Produto para gestão financeira",
-            "value": 200.99,
-            "frequencies": [{
-                "code": "0001",
-                "name": "Premium Mensal",
-                "frequency": 1,
-                "value": 200
-            }]
-        },
-        {
-            "id": 2,
-            "name": "premium",
-            "code": "12586",
-            "description": "Produto para gestão de clinicas e consultórios médicos",
-            "value": 200.99,
-            "frequencies": [{
-                "code": "0001",
-                "name": "Premium Mensal",
-                "frequency": 1,
-                "value": 200
-            }]
-        },
-        {
-            "id": 3,
-            "name": "ultra",
-            "code": "65885",
-            "description": "Conecta toda a cadeia ",
-            "value": 200.99,
-            "frequencies": [{
-                "code": "0001",
-                "name": "Premium Mensal",
-                "frequency": 1,
-                "value": 200
-            }]
-        }
+    "signature": [{
+        "inicialDate": "2020-06-09T17:51:05.802Z",
+        "finalDate": "2020-06-09T17:51:05.802Z",
+        "paymentMethod": "Boleto",
+        "numberOfLicences": 1,
+        "clientId": "889605b0-a981-11ea-9135-3dd2ddf78ac9",
+        "offers": [{
+                "createdAt": "2020-06-09T17:51:04.447Z",
+                "code": "teste",
+                "name": "teste",
+                "description": "TESTESTESTE",
+                "active": true,
+                "id": "c9f828f0-aa79-11ea-9e87-f3f4999bdb33",
+                "value": 100,
+                "updatedAt": "2020-06-09T17:51:04.447Z"
+            },
+            {
+                "createdAt": "2020-06-09T17:51:05.802Z",
+                "code": "teste",
+                "name": "teste",
+                "description": "TESTESTESTE",
+                "active": true,
+                "id": "cac6eaa0-aa79-11ea-9e87-f3f4999bdb33",
+                "value": 100,
+                "updatedAt": "2020-06-09T17:51:05.802Z"
+            }
+        ]
+    }],
+    "cancellation-reason": [
+        { "id": "889605b0-a981-11ea-9135-3dd2ddf78ac9", "reason": "Fechei o meu negócio", "subMotive": [{ "id": 1, "motivo": "Passei o ponto" }, { "id": 2, "motivo": "Crise COVID" }] }
     ]
 }
