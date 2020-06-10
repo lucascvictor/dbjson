@@ -3,7 +3,7 @@
         "id": "889605b0-a981-11ea-9135-3dd2ddf78ac9",
         "name": "Lucas",
         "document": 45266857705,
-        "subscription": [{
+        "subscriptions": [{
             "startAt": "2020-06-09T17:51:05.802Z",
             "endAt": "2020-06-09T17:51:05.802Z",
             "paymentMethod": "Boleto",
