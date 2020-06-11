@@ -4,6 +4,7 @@
         "name": "Lucas",
         "document": 45266857705,
         "subscriptions": [{
+                "id": "889605b0-a981-11ea-9135-3dd2ddf78ac0",
                 "startAt": "2020-06-09T17:51:05.802Z",
                 "endAt": "2020-06-09T17:51:05.802Z",
                 "paymentMethod": "Boleto",
@@ -26,13 +27,14 @@
                         "name": "teste",
                         "description": "TESTESTESTE",
                         "active": true,
-                        "id": "cac6eaa0-aa79-11ea-9e87-f3f4999bdb33",
+                        "id": "cac6eaa0-aa79-11ea-9e87-f3f4999bdb32",
                         "value": 100,
                         "updatedAt": "2020-06-09T17:51:05.802Z"
                     }
                 ]
             },
             {
+                "id": "889605b0-a981-11ea-9135-3dd2ddf78ac7",
                 "startAt": "2020-06-09T17:51:05.802Z",
                 "endAt": "2020-06-09T17:51:05.802Z",
                 "paymentMethod": "Boleto",
@@ -42,6 +44,7 @@
                 "offers": []
             },
             {
+                "id": "889605b0-a981-11ea-9135-3dd2ddf78ac5",
                 "startAt": "2020-06-09T17:51:05.802Z",
                 "endAt": "2020-06-09T17:51:05.802Z",
                 "paymentMethod": "Boleto",
