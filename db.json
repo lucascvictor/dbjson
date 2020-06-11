@@ -4,34 +4,53 @@
         "name": "Lucas",
         "document": 45266857705,
         "subscriptions": [{
-            "startAt": "2020-06-09T17:51:05.802Z",
-            "endAt": "2020-06-09T17:51:05.802Z",
-            "paymentMethod": "Boleto",
-            "recurrenceMonths": 1,
-            "status": "blocked",
-            "disabledAt": "2020-06-09T17:51:05.802Z",
-            "offers": [{
-                    "createdAt": "2020-06-09T17:51:04.447Z",
-                    "code": "teste",
-                    "name": "teste",
-                    "description": "TESTESTESTE",
-                    "active": true,
-                    "id": "c9f828f0-aa79-11ea-9e87-f3f4999bdb33",
-                    "value": 100,
-                    "updatedAt": "2020-06-09T17:51:04.447Z"
-                },
-                {
-                    "createdAt": "2020-06-09T17:51:05.802Z",
-                    "code": "teste",
-                    "name": "teste",
-                    "description": "TESTESTESTE",
-                    "active": true,
-                    "id": "cac6eaa0-aa79-11ea-9e87-f3f4999bdb33",
-                    "value": 100,
-                    "updatedAt": "2020-06-09T17:51:05.802Z"
-                }
-            ]
-        }]
+                "startAt": "2020-06-09T17:51:05.802Z",
+                "endAt": "2020-06-09T17:51:05.802Z",
+                "paymentMethod": "Boleto",
+                "recurrenceMonths": 1,
+                "status": "subscription_canceled",
+                "disabledAt": "2020-06-09T17:51:05.802Z",
+                "offers": [{
+                        "createdAt": "2020-06-09T17:51:04.447Z",
+                        "code": "teste",
+                        "name": "teste",
+                        "description": "TESTESTESTE",
+                        "active": true,
+                        "id": "c9f828f0-aa79-11ea-9e87-f3f4999bdb33",
+                        "value": 100,
+                        "updatedAt": "2020-06-09T17:51:04.447Z"
+                    },
+                    {
+                        "createdAt": "2020-06-09T17:51:05.802Z",
+                        "code": "teste",
+                        "name": "teste",
+                        "description": "TESTESTESTE",
+                        "active": true,
+                        "id": "cac6eaa0-aa79-11ea-9e87-f3f4999bdb33",
+                        "value": 100,
+                        "updatedAt": "2020-06-09T17:51:05.802Z"
+                    }
+                ]
+            },
+            {
+                "startAt": "2020-06-09T17:51:05.802Z",
+                "endAt": "2020-06-09T17:51:05.802Z",
+                "paymentMethod": "Boleto",
+                "recurrenceMonths": 1,
+                "status": "bill_created",
+                "disabledAt": "2020-06-09T17:51:05.802Z",
+                "offers": []
+            },
+            {
+                "startAt": "2020-06-09T17:51:05.802Z",
+                "endAt": "2020-06-09T17:51:05.802Z",
+                "paymentMethod": "Boleto",
+                "recurrenceMonths": 1,
+                "status": "bill_paid",
+                "disabledAt": "2020-06-09T17:51:05.802Z",
+                "offers": []
+            }
+        ]
     }],
     "cancellation-reason": [
         { "id": "889605b0-a981-11ea-9135-3dd2ddf78ac9", "reason": "Fechei o meu negócio", "submotives": [{ "id": 1, "motive": "Passei o ponto" }, { "id": 2, "motive": "Crise COVID" }] }
