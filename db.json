@@ -13,22 +13,20 @@
                 "disabledAt": "2020-06-09T17:51:05.802Z",
                 "offers": [{
                         "createdAt": "2020-06-09T17:51:04.447Z",
-                        "code": "teste",
-                        "name": "teste",
-                        "description": "TESTESTESTE",
+                        "code": "S001",
+                        "name": "SAUDE",
+                        "description": "SAUDE",
                         "active": true,
                         "id": "c9f828f0-aa79-11ea-9e87-f3f4999bdb33",
-                        "value": 100,
                         "updatedAt": "2020-06-09T17:51:04.447Z"
                     },
                     {
                         "createdAt": "2020-06-09T17:51:05.802Z",
-                        "code": "teste",
-                        "name": "teste",
-                        "description": "TESTESTESTE",
+                        "code": "E002",
+                        "name": "ELEVE",
+                        "description": "ELEVE",
                         "active": true,
                         "id": "cac6eaa0-aa79-11ea-9e87-f3f4999bdb32",
-                        "value": 100,
                         "updatedAt": "2020-06-09T17:51:05.802Z"
                     }
                 ]
