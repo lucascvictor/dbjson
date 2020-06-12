@@ -20,7 +20,10 @@
                         "id": "c9f828f0-aa79-11ea-9e87-f3f4999bdb33",
                         "updatedAt": "2020-06-09T17:51:04.447Z",
                         "frequencies": [{ "id": 1, "frequency": 2, "price": 25.66, "code": "T2546", "name": "Mensal" }],
-                        "restrictions": [{ "id": 1, "quantity": 5, "code": "T0025", "name": "Atendimentos por telefone" }]
+                        "restrictions": [{ "id": 1, "quantity": 5, "code": "T0025", "name": "Atendimentos por telefone" },
+                            { "id": 2, "quantity": 15, "code": "T0026", "name": "Acessos fora do país" },
+                            { "id": 3, "quantity": 2, "code": "T0027", "name": "Acessos simultâneos" }
+                        ]
                     },
                     {
                         "createdAt": "2020-06-09T17:51:05.802Z",
