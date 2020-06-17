@@ -1,64 +1,21 @@
 {
-    "client": [{
-        "id": "889605b0-a981-11ea-9135-3dd2ddf78ac9",
-        "name": "Lucas",
-        "document": 45266857705,
-        "subscriptions": [{
-                "id": "889605b0-a981-11ea-9135-3dd2ddf78ac0",
-                "startAt": "2020-06-09T17:51:05.802Z",
-                "endAt": "2020-06-09T17:51:05.802Z",
-                "paymentMethod": "Boleto",
-                "recurrenceMonths": 1,
-                "status": "subscription_canceled",
-                "disabledAt": "2020-06-09T17:51:05.802Z",
-                "offers": [{
-                        "createdAt": "2020-06-09T17:51:04.447Z",
-                        "code": "S001",
-                        "name": "SAUDE",
-                        "description": "SAUDE",
-                        "active": true,
-                        "id": "c9f828f0-aa79-11ea-9e87-f3f4999bdb33",
-                        "updatedAt": "2020-06-09T17:51:04.447Z",
-                        "frequencies": [{ "id": 1, "frequency": 2, "price": 25.66, "code": "T2546", "name": "Mensal" }],
-                        "restrictions": [{ "id": 1, "quantity": 5, "code": "T0025", "name": "Atendimentos por telefone" },
-                            { "id": 2, "quantity": 15, "code": "T0026", "name": "Acessos fora do país" },
-                            { "id": 3, "quantity": 2, "code": "T0027", "name": "Acessos simultâneos" }
-                        ]
-                    },
-                    {
-                        "createdAt": "2020-06-09T17:51:05.802Z",
-                        "code": "E002",
-                        "name": "ELEVE",
-                        "description": "ELEVE",
-                        "active": true,
-                        "id": "cac6eaa0-aa79-11ea-9e87-f3f4999bdb32",
-                        "updatedAt": "2020-06-09T17:51:05.802Z"
-                    }
-                ]
-            },
-            {
-                "id": "889605b0-a981-11ea-9135-3dd2ddf78ac7",
-                "startAt": "2020-06-09T17:51:05.802Z",
-                "endAt": "2020-06-09T17:51:05.802Z",
-                "paymentMethod": "Boleto",
-                "recurrenceMonths": 1,
-                "status": "bill_created",
-                "disabledAt": "2020-06-09T17:51:05.802Z",
-                "offers": []
-            },
-            {
-                "id": "889605b0-a981-11ea-9135-3dd2ddf78ac5",
-                "startAt": "2020-06-09T17:51:05.802Z",
-                "endAt": "2020-06-09T17:51:05.802Z",
-                "paymentMethod": "Boleto",
-                "recurrenceMonths": 1,
-                "status": "bill_paid",
-                "disabledAt": "2020-06-09T17:51:05.802Z",
-                "offers": []
-            }
-        ]
-    }],
-    "cancellation-reason": [
-        { "id": "889605b0-a981-11ea-9135-3dd2ddf78ac9", "reason": "Fechei o meu negócio", "submotives": [{ "id": 1, "motive": "Passei o ponto" }, { "id": 2, "motive": "Crise COVID" }] }
+    "cancelReason": [{
+            "id": 1,
+            "reason": "O comércio quebrou",
+            "internalReason": true,
+            "subMotives": [
+                { "subReason": "Fantasmas malignos" },
+                { "subReason": "Aliens" }
+            ]
+        },
+        {
+            "id": 2,
+            "reason": "O comércio quebrou outra vez",
+            "internalReason": false,
+            "subMotives": [
+                { "subReason": "Fantasmas malignos voltaram" },
+                { "subReason": "Aliens me devolveram da abdução" }
+            ]
+        }
     ]
 }
